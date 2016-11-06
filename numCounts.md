@@ -10,6 +10,7 @@ You are given a whole number and must count up to it in increments of 1 and 2. F
 #### Example
 
 For the number 3, we return 3. (1+1+1, 1+2, or 2+1)
+
 For the number 4, we return 5. (1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2)
 
 #### Solution
