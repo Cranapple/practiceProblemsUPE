@@ -1,19 +1,20 @@
 
-## CS31/CS32/CS33 [the class this problem is for]
+## CS32
 
-### Your Problem Title
+### Ways to Count
 
-*Contributed by Your Name*.
+*Contributed by Lucas Tecot*.
 
-Your problem description. Remember to wrap in-line code in `ticks`!
+You are given a whole number and must count up to it in increments of 1 and 2. Find the number of ways you can count to that number.
 
 #### Example
 
-Example inputs and outputs, if helpful. If you don't have this, remove this section.
+For the number 3, we return 3. (1+1+1, 1+2, or 2+1)
+For the number 4, we return 5. (1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2)
 
 #### Solution
 
-If you solution would benefit from a textual description, put that here. If you only want to provide the code, then remove these sentences!
+It turns out that this problem is essentially just fibonacci numbers. You can do it with recursion but using a loop is much more efficient.
 
 ```cpp
 int numCounts(int n) {
