@@ -1,19 +1,15 @@
 
-## CS31/CS32/CS33 [the class this problem is for]
+## CS33
 
-### Your Problem Title
+### Reverse Integer Bits
 
-*Contributed by Your Name*.
+*Contributed by Lucas Tecot*.
 
-Your problem description. Remember to wrap in-line code in `ticks`!
-
-#### Example
-
-Example inputs and outputs, if helpful. If you don't have this, remove this section.
+Reverse the bits of an integer.
 
 #### Solution
 
-If you solution would benefit from a textual description, put that here. If you only want to provide the code, then remove these sentences!
+To do this, we go one by one for each bit. We shift the result int left, set its least significant to that of the original number, then shift the original to the right.
 
 ```cpp
 int reverseBits(int n) {
